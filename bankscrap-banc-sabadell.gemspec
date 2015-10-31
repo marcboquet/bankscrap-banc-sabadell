@@ -5,7 +5,7 @@ require 'bankscrap-banc-sabadell/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "bankscrap-banc-sabadell"
-  spec.version       = Bankscrap::BancSabadell::VERSION
+  spec.version       = BankScrap::BancSabadell::VERSION
   spec.authors       = ["Michal Cichra"]
   spec.email         = [""]
   spec.summary       = %q{Banc Sabadell adapter for BankScrap}
