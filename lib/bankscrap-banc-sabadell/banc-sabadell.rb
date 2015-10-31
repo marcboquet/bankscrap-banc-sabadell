@@ -36,7 +36,7 @@ module BankScrap
     }.freeze
 
     def initialize(nie, pin, **options)
-      @http_client = BankScrap.http_client.new(API_URL)
+      @http_client = BankScrap::NetHttpClient.new(API_URL)
       @http_client.response_class = HttpResponse
 
       @http_client.headers.merge!(
